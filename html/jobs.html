@@ -8,7 +8,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto&family=Splash&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.4.0/mdb.min.css" rel="stylesheet"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <title>TRABAJOS REALIZADOS</title>
@@ -19,30 +18,38 @@
         <nav class="navbar navbar-expand-lg" style="background-color: white;">
           <div class="container-fluid">
               <a class="navbar-brand" href="../index.html">
-                <img src="../img/header/logo1.png" alt="" width="45" height="40" class="d-inline-block">
+                <img src="../img/header/web-development.png" alt="" width="45" height="40" class="d-inline-block">
                 GDEVELOPING
               </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="../index.html">INICIO</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./nosotros.html">NOSOTROS</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./jobs.html">TRABAJOS REALIZADOS</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./register.html">REGISTRATE</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./contacto.html">CONTACTO</a>
-                </li>
-              </ul>
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../index.html">INICIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./nosotros.html">NOSOTROS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./servicios.html">SERVICIOS</a>
+                  </li>
+                  <li class="nav-item">
+                   <a class="nav-link" href="./jobs.html">TRABAJOS REALIZADOS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./register.html">REGISTRATE</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html">CONTACTO</a>
+                  </li>
+                </ul>
+              <div class="login_img">
+                <a class="navbar-brand" href="./login.html">
+                  <img src="../img/login/user.png" alt="" width="45" height="40">
+                </a>
+              </div>
             </div>
           </div>
         </nav>  
@@ -51,23 +58,23 @@
         <div class="titulo_trabajos">
           <h1>TRABAJOS REALIZADOS</h1>
         </div>
-        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
           <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="3250">
-              <img src="../img/jobsimg/web1.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item" data-bs-interval="3250">
-              <img src="../img/jobsimg/web2.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item" data-bs-interval="3250">
+            <div class="carousel-item active">
               <img src="../img/jobsimg/web3.jpg" class="d-block w-100" alt="...">
             </div>
+            <div class="carousel-item">
+              <img src="../img/jobsimg/web2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="../img/jobsimg/web1.jpg" class="d-block w-100" alt="...">
+            </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
