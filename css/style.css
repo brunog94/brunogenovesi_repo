@@ -12,10 +12,8 @@ html{
 body{
     
     font-family: 'Ubuntu', sans-serif;
-    background-image: url(../img/body/wallpaperbetter.com_2560x1440.jpg);  
-    background-repeat: no-repeat;
-    background-size: auto;
-    width: 100%;
+    background-image: url(../img/body/wallpaperbetter.com_3840x2160.jpg);
+    background-size:cover;
     height: 100%;
 
 
@@ -78,12 +76,16 @@ nav{
 
 .par1{
     color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
     text-align: center;
     
     
 }
 .par2{
     display: flex;
+    font-size: 20px;
+    font-weight: bold;
     text-align: center;
     color: aliceblue;
 }
@@ -111,6 +113,8 @@ nav{
 .main_jobs p{
     text-align:center;
     align-items: center;
+    font-size: 15px;
+    font-weight: bold;
     color: aliceblue;
 
 }
@@ -146,15 +150,20 @@ nav{
     
     
 }
+#serv_row{
+    display: flex;
+}
 #col_serv img{
     margin-bottom: 1rem;
     width: 100px;
 }
 
 #col_serv{
-    border: 1px solid  aliceblue;
-    background-color: black;
+    border: 1px solid aliceblue;
+    background-color: rgb(0, 0, 0);
     color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 #col_serv h2{
@@ -188,6 +197,7 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 2rem;
     
 }
 .nosotros_titulo{
@@ -201,6 +211,8 @@ nav{
 }
 .nosotros_parrafo{
     display: flex;
+    font-size: 20px;
+    font-weight: bold;
     justify-content: center;
     color: aliceblue;
 }
@@ -214,9 +226,14 @@ nav{
     margin-top: 1rem;
     color: aliceblue;
 }
+#testi_row{
+    display: flex;
+}
 #test_col{
     display: flex;
     color: aliceblue;
+    font-size: 15px;
+    font-weight: bold;
     gap: 1rem;
     margin-bottom: 1rem;
     
@@ -358,7 +375,10 @@ margin-bottom: 1rem;
     .testimonio_titulo{
         justify-content: center;
     }
-    .main_servicios{
+    #serv_row{
+        flex-direction: column;
+    }
+    #testi_row{
         flex-direction: column;
     }
 }
