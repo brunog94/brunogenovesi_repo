@@ -146,18 +146,18 @@ nav{
     
     
 }
-.main_descrip img{
+#col_serv img{
     margin-bottom: 1rem;
     width: 100px;
 }
 
-.main_descrip{
+#col_serv{
     border: 1px solid  aliceblue;
     background-color: black;
     color: aliceblue;
 }
 
-.main_descrip h2{
+#col_serv h2{
     font-family: 'Fjalla One', sans-serif;
     margin-bottom: 1rem;
     text-decoration-line: underline;
@@ -214,11 +214,12 @@ nav{
     margin-top: 1rem;
     color: aliceblue;
 }
-.nosotros_testimonio{
+#test_col{
     display: flex;
     color: aliceblue;
     gap: 1rem;
     margin-bottom: 1rem;
+    
 }
 
 
