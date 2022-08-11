@@ -1,0 +1,111 @@
+
+.main_style{
+    display: flex;
+    flex-direction: column;
+    padding: 1px 1px;
+    margin: 40px;
+    gap: 1rem;
+    .sub_tit{
+        font-family: 'Fjalla One', sans-serif;
+        color: aliceblue;
+        border: 4px aliceblue solid;
+        margin-top: 2.5rem;
+        
+    }
+    .img-fluid{
+        border: 4px rgb(255, 255, 255) solid;
+        
+    
+    
+    }
+    .img-fluid{
+        border: 4px rgb(255, 255, 255) solid;
+        
+    
+    
+    }
+    .par1{
+        color: aliceblue;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        
+        
+    }
+    .par2{
+        display: flex;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        color: aliceblue;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+.main_jobs{
+    margin: 45px;
+    display: grid;
+
+    
+    
+
+}
+.borde_main{
+    border: 2px solid white;
+    
+}
+
+.main_jobs h2{
+    font-family: 'Fjalla One', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    text-decoration-line: underline;
+    margin-bottom: 1rem;
+}
+
+.main_jobs p{
+    text-align:center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: aliceblue;
+
+}
+
+@media only screen and (min-width:600px){
+
+    /* Index media +600 */
+        .main_style{
+            grid-template-columns: 2fr 1fr;
+            grid-template-rows: 0.1fr 0.1fr;
+            grid-template-areas: "ms4 ms4"
+                                 "ms1 ms2"
+                                 "ms3 ms3";
+        justify-items: center;
+        align-items: center;
+        }
+
+    /* Main media +600 */
+
+        .sub_tit{
+            grid-area: ms4;
+            font-size: 30px;
+            font-weight: 900;
+        }
+
+        .par1{
+            max-width: 100%;
+        }
+        .main_jobs{
+            grid-template-columns: repeat(3, auto);
+        }
+    }
