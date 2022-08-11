@@ -1,390 +1,295 @@
 @import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto&family=Splash&family=Ubuntu:ital,wght@1,300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;  
-}
-html{
-    width: 100%;
-    height: 100%;
-}
-body{
-    
-    font-family: 'Ubuntu', sans-serif;
-    background-image: url(../img/body/wallpaperbetter.com_3840x2160.jpg);
-    background-size:cover;
-    height: 100%;
+html {
+  width: 100%;
+  height: 100%; }
 
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background-image: url(../img/body/wallpaperbetter.com_3840x2160.jpg);
+  background-size: cover;
+  height: 100%; }
 
-}
-
-.grilla{
-    display: grid;
-    align-items: center;
-    min-height: 100%;
-    grid-template-columns: 100%;
-    grid-template-rows: auto 1fr auto;
-    grid-template-areas: "header"
-                         "main"
-                         "footer";   
-}
+.grilla {
+  display: grid;
+  align-items: center;
+  min-height: 100%;
+  grid-template-columns: 100%;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas: "header" "main" "footer"; }
 
 /* INDEX */
+.head_index {
+  font-family: 'Fjalla One', sans-serif;
+  display: inline-block; }
 
-.head_index{
-    font-family: 'Fjalla One', sans-serif;
-    display: inline-block;
-}
-nav{
-    display: flex;
-}
-.navbar-nav li a:hover{
-    border: 2px black solid;
-}
-.header_form{
-    display: flex;
-    justify-content: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    gap: 1rem;
-}
-.login_img{
-    display: flex;
-    margin-left: auto;
-}
-.main_style{
-    display: flex;
-    flex-direction: column;
-    padding: 1px 1px;
-    margin: 40px;
-    gap: 1rem;
-}
-.sub_tit{
-    font-family: 'Fjalla One', sans-serif;
-    color: aliceblue;
-    border: 4px aliceblue solid;
-    margin-top: 2.5rem;
-    
-}
-.img-fluid{
-    border: 4px rgb(255, 255, 255) solid;
-    
+nav {
+  display: flex; }
 
+.navbar-nav li a:hover {
+  border: 2px black solid; }
 
-}
+.header_form {
+  display: flex;
+  justify-content: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  gap: 1rem; }
 
-.par1{
-    color: aliceblue;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    
-    
-}
-.par2{
-    display: flex;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    color: aliceblue;
-}
-.main_jobs{
-    margin: 45px;
-    display: grid;
+.login_img {
+  display: flex;
+  margin-left: auto; }
 
-    
-    
+.main_style {
+  display: flex;
+  flex-direction: column;
+  padding: 1px 1px;
+  margin: 40px;
+  gap: 1rem; }
 
-}
-.borde_main{
-    border: 2px solid white;
-    
-}
+.sub_tit {
+  font-family: 'Fjalla One', sans-serif;
+  color: aliceblue;
+  border: 4px aliceblue solid;
+  margin-top: 2.5rem; }
 
-.main_jobs h2{
-    font-family: 'Fjalla One', sans-serif;
-    color: aliceblue;
-    text-align: center;
-    text-decoration-line: underline;
-    margin-bottom: 1rem;
-}
+.img-fluid {
+  border: 4px white solid; }
 
-.main_jobs p{
-    text-align:center;
-    align-items: center;
-    font-size: 15px;
-    font-weight: bold;
-    color: aliceblue;
+.par1 {
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center; }
 
-}
+.par2 {
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: aliceblue; }
 
-    
-.foot_style{
-    background-color: mintcream;
-    grid-area: footer;
-    display: flex;
-    text-align: center;
-    display: list-item;
-    border: 4px solid black;
-    padding: 0px 15px;
-    
-    
-}
-.contacto_footer h2{
-    color: rgb(0, 0, 0);
-    font-size: 25px;
-    margin: 15px 0;
-    font-weight: bold;
-}
+.main_jobs {
+  margin: 45px;
+  display: grid; }
 
+.borde_main {
+  border: 2px solid white; }
+
+.main_jobs h2 {
+  font-family: 'Fjalla One', sans-serif;
+  color: aliceblue;
+  text-align: center;
+  text-decoration-line: underline;
+  margin-bottom: 1rem; }
+
+.main_jobs p {
+  text-align: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: bold;
+  color: aliceblue; }
+
+.foot_style {
+  background-color: mintcream;
+  grid-area: footer;
+  display: flex;
+  text-align: center;
+  display: list-item;
+  border: 4px solid black;
+  padding: 0px 15px; }
+
+.contacto_footer h2 {
+  color: black;
+  font-size: 25px;
+  margin: 15px 0;
+  font-weight: bold; }
 
 /* SERVICIOS */
+.main_servicios {
+  display: flex;
+  text-align: center;
+  justify-items: center;
+  margin: 2rem; }
 
+#serv_row {
+  display: flex; }
 
-.main_servicios{
-    display: flex;
-    text-align: center;
-    justify-items: center;
-    margin: 2rem;
-    
-    
-}
-#serv_row{
-    display: flex;
-}
-#col_serv img{
-    margin-bottom: 1rem;
-    width: 100px;
-}
+#col_serv img {
+  margin-bottom: 1rem;
+  width: 100px; }
 
-#col_serv{
-    border: 1px solid aliceblue;
-    background-color: rgb(0, 0, 0);
-    color: aliceblue;
-    font-size: 20px;
-    font-weight: bold;
-}
+#col_serv {
+  border: 1px solid aliceblue;
+  background-color: black;
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: bold; }
 
-#col_serv h2{
-    font-family: 'Fjalla One', sans-serif;
-    margin-bottom: 1rem;
-    text-decoration-line: underline;
-}
+#col_serv h2 {
+  font-family: 'Fjalla One', sans-serif;
+  margin-bottom: 1rem;
+  text-decoration-line: underline; }
 
-.testimonio_clientes{
-    display: flex;
-    justify-content: center;
-}
+.testimonio_clientes {
+  display: flex;
+  justify-content: center; }
 
 /* TRABAJOS REALIZADOS */
-
-.titulo_trabajos{
-    display: flex;
-    justify-content: center;
-    color: white;
-    font-family: 'Fjalla One', sans-serif;
-    padding: 1rem;
-    border: white 2px solid;
-    margin: 1rem;
-}
-
-
+.titulo_trabajos {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+  padding: 1rem;
+  border: white 2px solid;
+  margin: 1rem; }
 
 /* NOSOTROS */
-.nosotros_main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 2rem;
-    
-}
-.nosotros_titulo{
-    display: flex;
-    color: aliceblue;
-    font-size: 30px;
-    font-family: 'Fjalla One', sans-serif;
-    font-weight: 900;
-    margin-bottom: 1.5rem;
-    margin-top: 1rem;
-}
-.nosotros_parrafo{
-    display: flex;
-    font-size: 20px;
-    font-weight: bold;
-    justify-content: center;
-    color: aliceblue;
-}
+.nosotros_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem; }
 
-.testimonio_titulo{
-    display: flex;
-    font-size: 15px;
-    font-family: 'Fjalla One', sans-serif;
-    font-weight: 700;
-    margin-bottom: 1.5rem;
-    margin-top: 1rem;
-    color: aliceblue;
-}
-#testi_row{
-    display: flex;
-}
-#test_col{
-    display: flex;
-    color: aliceblue;
-    font-size: 15px;
-    font-weight: bold;
-    gap: 1rem;
-    margin-bottom: 1rem;
-    
-}
+.nosotros_titulo {
+  display: flex;
+  color: aliceblue;
+  font-size: 30px;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: 900;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem; }
 
+.nosotros_parrafo {
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: center;
+  color: aliceblue; }
+
+.testimonio_titulo {
+  display: flex;
+  font-size: 15px;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+  color: aliceblue; }
+
+#testi_row {
+  display: flex; }
+
+#test_col {
+  display: flex;
+  color: aliceblue;
+  font-size: 15px;
+  font-weight: bold;
+  gap: 1rem;
+  margin-bottom: 1rem; }
 
 /* REGISTER */
-.main_register{
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    font-family: 'Fjalla One', sans-serif;
-    color: white;
-    margin: 6rem;
-    
-}
+.main_register {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  font-family: 'Fjalla One', sans-serif;
+  color: white;
+  margin: 6rem; }
 
+/* CONTACTO */
+.main_contact {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  margin: 3.5rem;
+  color: white; }
 
- /* CONTACTO */
+.img_contact {
+  display: flex;
+  justify-content: center; }
 
-.main_contact{
-    display: flex;
-    flex-direction: column;
-    justify-self: center;
-    align-items: center;
-    margin: 3.5rem;
-    color: white;
-}
+.img_contact img {
+  width: 250px;
+  height: 100px; }
 
-.img_contact{
-    display: flex;
-    justify-content: center;
-}
-.img_contact img{
-    width: 250px;
-    height: 100px;
-}
-.form_style{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    font-family: 'Fjalla One', sans-serif;
-    color: aliceblue;
-    margin: 1rem;
-    gap: 1rem;
-    
-}
+.form_style {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+  color: aliceblue;
+  margin: 1rem;
+  gap: 1rem; }
 
-.boton_enviar{
-display: flex;
-justify-content: center;
-margin-bottom: 1rem;
- font-family: 'Fjalla One', sans-serif;
- color: aliceblue;
-    
+.boton_enviar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  font-family: 'Fjalla One', sans-serif;
+  color: aliceblue; }
 
-}
 /* LOGIN */
-
-.form_login{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 2rem;
-    color: white;
-    font-family: 'Fjalla One', sans-serif;
-}
+.form_login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  color: white;
+  font-family: 'Fjalla One', sans-serif; }
 
 /* Media +600 */
-
-@media only screen and (min-width:600px){
-
-    /* Index media +600 */
-        .main_style{
-            grid-template-columns: 2fr 1fr;
-            grid-template-rows: 0.1fr 0.1fr;
-            grid-template-areas: "ms4 ms4"
-                                 "ms1 ms2"
-                                 "ms3 ms3";
-        justify-items: center;
-        align-items: center;
-        }
-
-    /* Main media +600 */
-
-        .sub_tit{
-            grid-area: ms4;
-            font-size: 30px;
-            font-weight: 900;
-        }
-
-        .par1{
-            max-width: 100%;
-        }
-        .main_jobs{
-            grid-template-columns: repeat(3, auto);
-        }
-
-
-    /* Main nosotros media +600 */
-
-         .nosotros_titulo{
-            justify-content: center;
-         }
-         .nosotros_parrafo{
-            text-align: center;
-         }
-         .testimonio_titulo{
-            justify-content: center;
-         }
-         .nosotros_testimonio{
-            justify-content: center;
-            text-align: center;
-         }
-
-
-
-}
+@media only screen and (min-width: 600px) {
+  /* Index media +600 */
+  .main_style {
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 0.1fr 0.1fr;
+    grid-template-areas: "ms4 ms4" "ms1 ms2" "ms3 ms3";
+    justify-items: center;
+    align-items: center; }
+  /* Main media +600 */
+  .sub_tit {
+    grid-area: ms4;
+    font-size: 30px;
+    font-weight: 900; }
+  .par1 {
+    max-width: 100%; }
+  .main_jobs {
+    grid-template-columns: repeat(3, auto); }
+  /* Main nosotros media +600 */
+  .nosotros_titulo {
+    justify-content: center; }
+  .nosotros_parrafo {
+    text-align: center; }
+  .testimonio_titulo {
+    justify-content: center; }
+  .nosotros_testimonio {
+    justify-content: center;
+    text-align: center; } }
 
 /* Media -600 */
-
-@media only screen and (max-width:600px){
-    /* main nosotros media -600 */
-    .nosotros_titulo{
-        justify-content: center;
-    }
-    .nosotros_parrafo{
-        text-align: center;
-        justify-content: center;
-    
-    }
-    .nosotros_testimonio{
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-    }
-    .testimonio_titulo{
-        justify-content: center;
-    }
-    #serv_row{
-        flex-direction: column;
-    }
-    #testi_row{
-        flex-direction: column;
-    }
-}
-  
-
-
-
-
-
+@media only screen and (max-width: 600px) {
+  /* main nosotros media -600 */
+  .nosotros_titulo {
+    justify-content: center; }
+  .nosotros_parrafo {
+    text-align: center;
+    justify-content: center; }
+  .nosotros_testimonio {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; }
+  .testimonio_titulo {
+    justify-content: center; }
+  #serv_row {
+    flex-direction: column; }
+  #testi_row {
+    flex-direction: column; } }
