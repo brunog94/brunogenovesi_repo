@@ -8,3 +8,10 @@
     border: white 2px solid;
     margin: 1rem;
 }
+
+#jobs_imagenes{
+    display: flex;
+}
+#jobs_imagenes div{
+    flex-direction: row;
+}

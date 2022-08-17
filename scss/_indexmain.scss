@@ -3,42 +3,32 @@
     display: flex;
     flex-direction: column;
     padding: 1px 1px;
-    margin: 40px;
     gap: 1rem;
     .sub_tit{
+        display: flex;
         font-family: 'Fjalla One', sans-serif;
         color: aliceblue;
         border: 4px aliceblue solid;
         margin-top: 2.5rem;
         
     }
-    .img-fluid{
-        border: 4px rgb(255, 255, 255) solid;
-        
-    
-    
-    }
-    .img-fluid{
-        border: 4px rgb(255, 255, 255) solid;
-        
-    
-    
+    .img_titulo{
+        font-weight: bold;
+        font-size: 45px;
+        font-family: 'Fjalla One', sans-serif;
+        color:rgb(0, 0, 0);
+        opacity: 0.7;
     }
     .par1{
+        margin: 20px;
         color: aliceblue;
-        font-size: 20px;
         font-weight: bold;
         text-align: center;
         
         
     }
-    .par2{
-        display: flex;
-        font-size: 20px;
-        font-weight: bold;
-        text-align: center;
-        color: aliceblue;
-    }
+    
+   
 
 
 
@@ -61,6 +51,8 @@
 }
 .borde_main{
     border: 2px solid white;
+    color: aliceblue;
+    padding: 1rem;
     
 }
 
@@ -75,7 +67,6 @@
 .main_jobs p{
     text-align:center;
     align-items: center;
-    font-size: 15px;
     font-weight: bold;
     color: aliceblue;
 
@@ -109,3 +100,12 @@
             grid-template-columns: repeat(3, auto);
         }
     }
+    @media only screen and (max-width:600px){
+
+        .sub_tit{
+            justify-content: center;
+        }
+        .img_tiutlo{
+            font-size: small;
+        }
+    }    

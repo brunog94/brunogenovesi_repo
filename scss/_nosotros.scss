@@ -35,6 +35,10 @@
 }
 #testi_row{
     display: flex;
+    justify-content: space-between;
+}
+#testi_row h5{
+    font-weight: bold;
 }
 #test_col{
     display: flex;

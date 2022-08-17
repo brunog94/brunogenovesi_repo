@@ -5,12 +5,11 @@
 }
 nav{
     display: flex;
-    &:hover{
-        border: 2px black solid;
-    }
 
 }
-.navbar-nav li a
+.navbar-nav li a:hover{
+    border: 2px black solid;
+}
 
 .login_img{
     display: flex;

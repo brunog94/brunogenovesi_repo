@@ -28,10 +28,10 @@ body {
 
 nav {
   display: flex; }
-  nav:hover {
-    border: 2px black solid; }
 
-.navbar-nav li a
+.navbar-nav li a:hover {
+  border: 2px black solid; }
+
 .login_img {
   display: flex;
   margin-left: auto; }
@@ -40,35 +40,33 @@ nav {
   display: flex;
   flex-direction: column;
   padding: 1px 1px;
-  margin: 40px;
   gap: 1rem; }
   .main_style .sub_tit {
+    display: flex;
     font-family: 'Fjalla One', sans-serif;
     color: aliceblue;
     border: 4px aliceblue solid;
     margin-top: 2.5rem; }
-  .main_style .img-fluid {
-    border: 4px white solid; }
-  .main_style .img-fluid {
-    border: 4px white solid; }
+  .main_style .img_titulo {
+    font-weight: bold;
+    font-size: 45px;
+    font-family: 'Fjalla One', sans-serif;
+    color: black;
+    opacity: 0.7; }
   .main_style .par1 {
+    margin: 20px;
     color: aliceblue;
-    font-size: 20px;
     font-weight: bold;
     text-align: center; }
-  .main_style .par2 {
-    display: flex;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    color: aliceblue; }
 
 .main_jobs {
   margin: 45px;
   display: grid; }
 
 .borde_main {
-  border: 2px solid white; }
+  border: 2px solid white;
+  color: aliceblue;
+  padding: 1rem; }
 
 .main_jobs h2 {
   font-family: 'Fjalla One', sans-serif;
@@ -80,7 +78,6 @@ nav {
 .main_jobs p {
   text-align: center;
   align-items: center;
-  font-size: 15px;
   font-weight: bold;
   color: aliceblue; }
 
@@ -101,6 +98,12 @@ nav {
     max-width: 100%; }
   .main_jobs {
     grid-template-columns: repeat(3, auto); } }
+
+@media only screen and (max-width: 600px) {
+  .sub_tit {
+    justify-content: center; }
+  .img_tiutlo {
+    font-size: small; } }
 
 /* NOSOTROS */
 .nosotros_main {
@@ -136,7 +139,11 @@ nav {
   color: aliceblue; }
 
 #testi_row {
-  display: flex; }
+  display: flex;
+  justify-content: space-between; }
+
+#testi_row h5 {
+  font-weight: bold; }
 
 #test_col {
   display: flex;
