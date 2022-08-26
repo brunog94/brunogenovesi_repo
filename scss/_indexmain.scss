@@ -1,16 +1,25 @@
 
 .main_style{
+
     display: flex;
     flex-direction: column;
     padding: 1px 1px;
     gap: 1rem;
+    @mixin estilo_index1 ($color_letra, $font_family, $text_aling){
+        color: $color_letra;
+        font-family: $font_family;
+        text-align: $text_aling;
+    }
+    
+
+
+
     .sub_tit{
-        display: flex;
-        font-family: 'Fjalla One', sans-serif;
-        color: aliceblue;
+        display: flex;     
         border: 4px aliceblue solid;
         margin-top: 2.5rem;
-        
+        @include estilo_index1(aliceblue, 'Fjalla One', center )
+   
     }
     .img_titulo{
         font-weight: bold;
@@ -29,9 +38,6 @@
     }
     
    
-
-
-
 
 
 

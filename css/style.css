@@ -43,10 +43,11 @@ nav {
   gap: 1rem; }
   .main_style .sub_tit {
     display: flex;
-    font-family: 'Fjalla One', sans-serif;
-    color: aliceblue;
     border: 4px aliceblue solid;
-    margin-top: 2.5rem; }
+    margin-top: 2.5rem;
+    color: aliceblue;
+    font-family: "Fjalla One";
+    text-align: center; }
   .main_style .img_titulo {
     font-weight: bold;
     font-size: 45px;
