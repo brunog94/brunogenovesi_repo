@@ -22,6 +22,10 @@
     font-weight: bold;
     justify-content: center;
     color: aliceblue;
+
+}
+.nosotros_parrafo p{
+    max-width: 1200px;
 }
 
 .testimonio_titulo{
@@ -35,7 +39,8 @@
 }
 #testi_row{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 2rem;
 }
 #testi_row h5{
     font-weight: bold;

@@ -100,13 +100,16 @@
         }
 
         .par1{
-            max-width: 100%;
+            max-width: 1200px;
         }
         .main_jobs{
             grid-template-columns: repeat(3, auto);
         }
     }
-    @media only screen and (max-width:600px){
+    @media only screen and (max-width:970px){
+        .main_jobs{
+            grid-template-columns: repeat(1, auto);
+        }
 
         .sub_tit{
             justify-content: center;

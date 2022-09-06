@@ -96,11 +96,13 @@ nav {
     font-size: 30px;
     font-weight: 900; }
   .par1 {
-    max-width: 100%; }
+    max-width: 1200px; }
   .main_jobs {
     grid-template-columns: repeat(3, auto); } }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 970px) {
+  .main_jobs {
+    grid-template-columns: repeat(1, auto); }
   .sub_tit {
     justify-content: center; }
   .img_tiutlo {
@@ -130,6 +132,9 @@ nav {
   justify-content: center;
   color: aliceblue; }
 
+.nosotros_parrafo p {
+  max-width: 1200px; }
+
 .testimonio_titulo {
   display: flex;
   font-size: 15px;
@@ -141,7 +146,8 @@ nav {
 
 #testi_row {
   display: flex;
-  justify-content: space-between; }
+  justify-content: center;
+  gap: 2rem; }
 
 #testi_row h5 {
   font-weight: bold; }
@@ -184,34 +190,32 @@ nav {
   #testi_row {
     flex-direction: column; } }
 
-.main_servicios {
-  display: flex;
-  text-align: center;
-  justify-items: center;
-  margin: 2rem; }
-
-#serv_row {
-  display: flex; }
-
-#col_serv img {
-  margin-bottom: 1rem;
-  width: 100px; }
-
-#col_serv {
-  border: 1px solid aliceblue;
-  background-color: black;
-  color: aliceblue;
-  font-size: 20px;
-  font-weight: bold; }
-
-#col_serv h2 {
-  font-family: 'Fjalla One', sans-serif;
-  margin-bottom: 1rem;
-  text-decoration-line: underline; }
+#col_text {
+  color: aliceblue; }
 
 .testimonio_clientes {
   display: flex;
   justify-content: center; }
+
+.parrafos_serv {
+  display: flex;
+  justify-content: center; }
+
+.titulos_serv {
+  display: flex;
+  justify-content: flex-end; }
+
+.parrafo_serv {
+  display: flex;
+  justify-content: flex-end; }
+
+.main_servicios {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem; }
+
+.container {
+  border: 2px solid white; }
 
 /* REGISTER */
 .main_register {
