@@ -191,7 +191,11 @@ nav {
     flex-direction: column; } }
 
 #col_text {
-  color: aliceblue; }
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem; }
 
 .testimonio_clientes {
   display: flex;
@@ -201,21 +205,60 @@ nav {
   display: flex;
   justify-content: center; }
 
-.titulos_serv {
+.titulos_consultoria {
   display: flex;
-  justify-content: flex-end; }
+  justify-content: flex-end;
+  align-items: initial;
+  border-bottom: 2px solid aliceblue;
+  font-size: 25px;
+  font-weight: bolder; }
+
+.titulos_web {
+  display: flex;
+  align-items: initial;
+  border-bottom: 2px solid aliceblue;
+  font-size: 25px;
+  font-weight: bolder; }
+
+.titulos_almacenamiento {
+  display: flex;
+  border-bottom: 2px solid aliceblue;
+  font-size: 25px;
+  font-weight: bolder; }
 
 .parrafo_serv {
-  display: flex;
-  justify-content: flex-end; }
+  text-align: right;
+  font-size: 15px;
+  font-weight: 300; }
 
 .main_servicios {
   display: flex;
   flex-direction: column;
   gap: 3rem; }
 
-.container {
-  border: 2px solid white; }
+#conteiner_1 {
+  border-bottom: 3px solid aliceblue;
+  gap: 1rem; }
+
+.titulo_trabajo {
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  border-bottom: 3px solid aliceblue;
+  font-size: 30px;
+  font-weight: bolder; }
+
+#container_jobs {
+  display: flex;
+  justify-content: center; }
+
+#container_jobs2 {
+  display: flex;
+  justify-content: center; }
+
+@media only screen and (max-width: 840px) {
+  #container_jobs {
+    flex-direction: column; } }
 
 /* REGISTER */
 .main_register {
