@@ -3,6 +3,13 @@
     font-size: $font-size;
     font-weight: $font-weight;
 }
+@media only screen and (max-width:970px){
+    .carousel_slide{
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+}
     
 
 #col_text {
@@ -76,8 +83,3 @@
     justify-content: center;
 }
 
-@media only screen and (max-width:840px){
-    #container_jobs{
-        flex-direction: column;
-    }
-}

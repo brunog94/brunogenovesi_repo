@@ -190,6 +190,11 @@ nav {
   #testi_row {
     flex-direction: column; } }
 
+@media only screen and (max-width: 970px) {
+  .carousel_slide {
+    width: fit-content;
+    margin: 0 auto; } }
+
 #col_text {
   color: aliceblue;
   display: flex;
@@ -255,10 +260,6 @@ nav {
 #container_jobs2 {
   display: flex;
   justify-content: center; }
-
-@media only screen and (max-width: 840px) {
-  #container_jobs {
-    flex-direction: column; } }
 
 /* REGISTER */
 .main_register {
